@@ -1,7 +1,7 @@
 //import './style.css'
-//import JSConfetti from 'js-confetti'
+import JSConfetti from 'js-confetti'
 
-//const jsConfetti = new JSConfetti()
+const jsConfetti = new JSConfetti()
 const btnCoin = document.getElementById('btn-coin');
 const btnBill = document.getElementById('btn-bill');
 const walletElement = document.getElementById('wallet');
@@ -18,9 +18,9 @@ function updateSavingMoney(value) {
   let newValue = currenValue + value;
   savingMoneyElement.textContent = newValue;
 
-/*  if(newValue>targetRich) {
+  if(newValue>targetRich) {
     jsConfetti.addConfetti();
-  }*/
+  }
 }
 
 
